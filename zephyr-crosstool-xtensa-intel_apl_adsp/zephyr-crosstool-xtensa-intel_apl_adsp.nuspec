@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>zephyr-crosstool-xtensa-intel_apl_adsp</id>
+    <version>1.24.0.3</version>
+    <packageSourceUrl>https://github.com/stephanosio/chocolatey-zephyr</packageSourceUrl>
+    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <owners>Stephanos Ioannidis</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>zephyr-crosstool-xtensa-intel_apl_adsp (Install)</title>
+    <authors>GNU Project</authors>
+    <!-- projectUrl is required for the community feed -->
+    <projectUrl>https://github.com/stephanosio/zephyr-crosstool-ng</projectUrl>
+    <bugTrackerUrl>https://github.com/stephanosio/zephyr-crosstool-ng/issues</bugTrackerUrl>
+    <tags>zephyr sdk toolchain</tags>
+    <summary>Zephyr Xtensa Intel APL ADSP Cross Compiler Toolchain</summary>
+    <description>
+    Xtensa Intel APL ADSP Cross Compiler Toolchain for Zephyr RTOS Development
+    </description>
+    <releaseNotes>https://github.com/stephanosio/zephyr-crosstool-ng/releases/tag/zephyr-crosstool-ng-1.24.0.3</releaseNotes>
+    <!-- =============================== -->
+
+    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

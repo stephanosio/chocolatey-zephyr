@@ -1,0 +1,13 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+This package includes the following MinGW-w64 runtime library binaries:
+
+libgcc_s_seh-1.dll
+  Origin: MinGW-w64 Project, x86_64-7.3.0-release-win32-seh-rt_v5-rev0.7z 
+  SHA256: 60EE302FE7CC32375252711F7C4A34BBF90E36C38F43FD5BD9E65F5036DF2B04
+
+libstdc++-6.dll
+  Origin: MinGW-w64 Project, x86_64-7.3.0-release-win32-seh-rt_v5-rev0.7z
+  SHA256: 681E920FE8AE09EB08D8A51A8A2D48D85054FEEC988A9DE0D69955A2A248494F
