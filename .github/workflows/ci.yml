@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  test:
+    name: Test Chocolatey packages
+    runs-on: windows-latest
+
+    steps:
+    - name: Check out source code
+      uses: actions/checkout@v2
+
+    - name: Test toolchain packages
+      run: |
+        $dirs = Get-ChildItem -Directory -Path zephyr-crosstool-*
+
+        foreach ($dir in $dirs) {
+          $pkg = Split-Path $dir -Leaf
+          Push-Location $pkg
+
+          # Build package
+          Write-Output "Packing $pkg ..."
+          choco pack
+
+          # Install package
+          Write-Output "Installing $pkg ..."
+          choco install $pkg -dv -s .
+
+          Pop-Location
+        }
