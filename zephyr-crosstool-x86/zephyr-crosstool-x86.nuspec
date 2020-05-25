@@ -16,6 +16,7 @@
     <authors>GNU Project</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://github.com/stephanosio/zephyr-crosstool-ng</projectUrl>
+    <iconUrl>https://cdn.statically.io/gh/zephyrproject-rtos/zephyr/504dffa3/doc/static/images/kite.png</iconUrl>
     <bugTrackerUrl>https://github.com/stephanosio/zephyr-crosstool-ng/issues</bugTrackerUrl>
     <tags>zephyr sdk toolchain</tags>
     <summary>Zephyr x86(-64) Cross Compiler Toolchain</summary>
