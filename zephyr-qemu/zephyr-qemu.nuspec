@@ -12,7 +12,7 @@
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>zephyr-qemu (Install)</title>
+    <title>Zephyr QEMU Target Platform Emulator</title>
     <authors>QEMU Project</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://github.com/stephanosio/zephyr-qemu</projectUrl>

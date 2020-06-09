@@ -12,7 +12,7 @@
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>zephyr-crosstool-arm (Install)</title>
+    <title>Zephyr ARM AArch32 (Cortex-A/R/M) Cross Compiler Toolchain</title>
     <authors>GNU Project</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://github.com/stephanosio/zephyr-crosstool-ng</projectUrl>

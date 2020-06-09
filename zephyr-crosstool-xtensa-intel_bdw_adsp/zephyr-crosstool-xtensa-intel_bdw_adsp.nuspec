@@ -12,7 +12,7 @@
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>zephyr-crosstool-xtensa-intel_bdw_adsp (Install)</title>
+    <title>Zephyr Xtensa Intel BDW ADSP Cross Compiler Toolchain</title>
     <authors>GNU Project</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://github.com/stephanosio/zephyr-crosstool-ng</projectUrl>
