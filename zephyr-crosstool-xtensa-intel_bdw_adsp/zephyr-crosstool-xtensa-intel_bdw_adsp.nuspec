@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>zephyr-crosstool-xtensa-intel_bdw_adsp</id>
-    <version>1.24.0.3</version>
+    <version>1.24.0.4</version>
     <packageSourceUrl>https://github.com/stephanosio/chocolatey-zephyr</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Stephanos Ioannidis</owners>
@@ -24,7 +24,7 @@
     <description>
     Xtensa Intel BDW ADSP Cross Compiler Toolchain for Zephyr RTOS Development
     </description>
-    <releaseNotes>https://github.com/stephanosio/zephyr-crosstool-ng/releases/tag/zephyr-crosstool-ng-1.24.0.3</releaseNotes>
+    <releaseNotes>https://github.com/stephanosio/zephyr-crosstool-ng/releases/tag/zephyr-crosstool-ng-1.24.0.4</releaseNotes>
     <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->

@@ -1,13 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://github.com/stephanosio/zephyr-crosstool-ng/releases/download/zephyr-crosstool-ng-1.24.0.3/zephyr-crosstool-ng-1.24.0.3_windows-x86_64_arm-zephyr-eabi.zip'
-$archiveDir = "zephyr-crosstool-ng-1.24.0.3"
+$url64      = 'https://github.com/stephanosio/zephyr-crosstool-ng/releases/download/zephyr-crosstool-ng-1.24.0.4/zephyr-crosstool-ng-1.24.0.4_windows-x86_64_arm-zephyr-eabi.zip'
+$archiveDir = "zephyr-crosstool-ng-1.24.0.4"
 
 $packageArgs = @{
   packageName     = $env:ChocolateyPackageName
   unzipLocation   = $toolsDir
   url64bit        = $url64
-  checksum64      = '7879AE8337E0D78EB6F4A361B89CA1EAED6F74F3DEAB67D97B617BFA77F5D733'
+  checksum64      = '44a28cf3b595141692808fa2c1709ff85a440310ba002afae86708a09892f0e4'
   checksumType64  = 'sha256'
 }
 
