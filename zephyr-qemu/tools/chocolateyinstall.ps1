@@ -1,13 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://github.com/stephanosio/zephyr-qemu/releases/download/zephyr-qemu-v5.0.0.0/zephyr-qemu-v5.0.0.0_windows-x86_64.zip'
-$archiveDir = "zephyr-qemu-v5.0.0.0"
+$url64      = 'https://github.com/stephanosio/zephyr-qemu/releases/download/zephyr-qemu-v5.0.0.1/zephyr-qemu-v5.0.0.1_windows-x86_64.zip'
+$archiveDir = "zephyr-qemu-v5.0.0.1"
 
 $packageArgs = @{
   packageName     = $env:ChocolateyPackageName
   unzipLocation   = $toolsDir
   url64bit        = $url64
-  checksum64      = '1AF73917455A21663B46C9575051D364A49E9FF656DDAC5FE8F63B88D1D2D0A8'
+  checksum64      = '879197a26e8ea2e550c6393dc4299112571e09a32f450d4a9b8c5241300b7982'
   checksumType64  = 'sha256'
 }
 

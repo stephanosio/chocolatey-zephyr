@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>zephyr-qemu</id>
-    <version>5.0.0.0</version>
+    <version>5.0.0.1</version>
     <packageSourceUrl>https://github.com/stephanosio/chocolatey-zephyr</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Stephanos Ioannidis</owners>
@@ -24,7 +24,7 @@
     <description>
     QEMU Target Platform Emulator for Zephyr RTOS Development
     </description>
-    <releaseNotes>https://github.com/stephanosio/zephyr-qemu/releases/tag/zephyr-qemu-v5.0.0.0</releaseNotes>
+    <releaseNotes>https://github.com/stephanosio/zephyr-qemu/releases/tag/zephyr-qemu-v5.0.0.1</releaseNotes>
     <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
