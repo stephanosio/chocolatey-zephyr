@@ -33,12 +33,12 @@ _NOTE: You may need to run this command as an administrator._
 |           zephyr-crosstool-riscv          |                   RISC-V Cross Compiler Toolchain (riscv64-zephyr-elf)                  |
 |           zephyr-crosstool-sparc          |                    SPARC Cross Compiler Toolchain (sparc-zephyr-elf)                    |
 |            zephyr-crosstool-x86           |                  x86(-64) Cross Compiler Toolchain (x86_64-zephyr-elf)                  |
-|   zephyr-crosstool-xtensa-intel_apl_adsp  |    Xtensa Intel APL ADSP Cross Compiler Toolchain (xtensa-intel_apl_adsp_zephyr-elf)    |
-|   zephyr-crosstool-xtensa-intel_bdw_adsp  |    Xtensa Intel BDW ADSP Cross Compiler Toolchain (xtensa-intel_apl_adsp_zephyr-elf)    |
-|   zephyr-crosstool-xtensa-intel_byt_adsp  |    Xtensa Intel BYT ADSP Cross Compiler Toolchain (xtensa-intel_apl_adsp_zephyr-elf)    |
-|    zephyr-crosstool-xtensa-intel_s1000    |       Xtensa Intel S1000 Cross Compiler Toolchain (xtensa-intel_s1000_zephyr-elf)       |
-|    zephyr-crosstool-xtensa-nxp_imx_adsp   |      Xtensa NXP i.MX ADSP Cross Compiler Toolchain (xtensa-nxp_imx_adsp_zephyr-elf)     |
-|   zephyr-crosstool-xtensa-nxp_imx8m_adsp  |   Xtensa NXP i.MX 8M ADSP Cross Compiler Toolchain (xtensa-nxp_imx8m_adsp_zephyr-elf)   |
-| zephyr-crosstool-xtensa-sample_controller | Xtensa Sample Controller Cross Compiler Toolchain (xtensa-sample_controller_zephyr-elf) |
+|   zephyr-crosstool-xtensa-intel-apl-adsp  |    Xtensa Intel APL ADSP Cross Compiler Toolchain (xtensa-intel_apl_adsp_zephyr-elf)    |
+|   zephyr-crosstool-xtensa-intel-bdw-adsp  |    Xtensa Intel BDW ADSP Cross Compiler Toolchain (xtensa-intel_apl_adsp_zephyr-elf)    |
+|   zephyr-crosstool-xtensa-intel-byt-adsp  |    Xtensa Intel BYT ADSP Cross Compiler Toolchain (xtensa-intel_apl_adsp_zephyr-elf)    |
+|    zephyr-crosstool-xtensa-intel-s1000    |       Xtensa Intel S1000 Cross Compiler Toolchain (xtensa-intel_s1000_zephyr-elf)       |
+|    zephyr-crosstool-xtensa-nxp-imx-adsp   |      Xtensa NXP i.MX ADSP Cross Compiler Toolchain (xtensa-nxp_imx_adsp_zephyr-elf)     |
+|   zephyr-crosstool-xtensa-nxp-imx8m-adsp  |   Xtensa NXP i.MX 8M ADSP Cross Compiler Toolchain (xtensa-nxp_imx8m_adsp_zephyr-elf)   |
+|     zephyr-crosstool-xtensa-sample-ctlr   | Xtensa Sample Controller Cross Compiler Toolchain (xtensa-sample_controller_zephyr-elf) |
 |                zephyr-qemu                |                                       Zephyr QEMU                                       |
 |               zephyr-openocd              |                                      Zephyr OpenOCD                                     |
