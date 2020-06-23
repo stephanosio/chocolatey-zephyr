@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
-    <id>zephyr-crosstool-xtensa-intel_byt_adsp</id>
+    <id>zephyr-crosstool-xtensa-nxp-imx8m-adsp</id>
     <version>1.24.0.4</version>
     <packageSourceUrl>https://github.com/stephanosio/chocolatey-zephyr</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
@@ -12,7 +12,7 @@
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>Zephyr Xtensa Intel BYT ADSP Cross Compiler Toolchain</title>
+    <title>Zephyr Xtensa NXP i.MX 8M ADSP Cross Compiler Toolchain</title>
     <authors>GNU Project</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://github.com/stephanosio/zephyr-crosstool-ng</projectUrl>
@@ -20,9 +20,9 @@
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
     <bugTrackerUrl>https://github.com/stephanosio/zephyr-crosstool-ng/issues</bugTrackerUrl>
     <tags>zephyr sdk toolchain</tags>
-    <summary>Zephyr Xtensa Intel BYT ADSP Cross Compiler Toolchain</summary>
+    <summary>Zephyr Xtensa NXP i.MX 8M ADSP Cross Compiler Toolchain</summary>
     <description>
-    Xtensa Intel BYT ADSP Cross Compiler Toolchain for Zephyr RTOS Development
+    Xtensa NXP i.MX 8M ADSP Cross Compiler Toolchain for Zephyr RTOS Development
     </description>
     <releaseNotes>https://github.com/stephanosio/zephyr-crosstool-ng/releases/tag/zephyr-crosstool-ng-1.24.0.4</releaseNotes>
     <!-- =============================== -->

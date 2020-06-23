@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
-    <id>zephyr-crosstool-xtensa-intel_apl_adsp</id>
+    <id>zephyr-crosstool-xtensa-intel-apl-adsp</id>
     <version>1.24.0.4</version>
     <packageSourceUrl>https://github.com/stephanosio/chocolatey-zephyr</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->

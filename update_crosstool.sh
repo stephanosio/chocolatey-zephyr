@@ -11,13 +11,13 @@ PACKAGES=" \
   zephyr-crosstool-riscv,riscv64-zephyr-elf \
   zephyr-crosstool-sparc,sparc-zephyr-elf \
   zephyr-crosstool-x86,x86_64-zephyr-elf \
-  zephyr-crosstool-xtensa-intel_apl_adsp,xtensa-intel_apl_adsp_zephyr-elf \
-  zephyr-crosstool-xtensa-intel_bdw_adsp,xtensa-intel_bdw_adsp_zephyr-elf \
-  zephyr-crosstool-xtensa-intel_byt_adsp,xtensa-intel_byt_adsp_zephyr-elf \
-  zephyr-crosstool-xtensa-intel_s1000,xtensa-intel_s1000_zephyr-elf \
-  zephyr-crosstool-xtensa-nxp_imx_adsp,xtensa-nxp_imx_adsp_zephyr-elf \
-  zephyr-crosstool-xtensa-nxp_imx8m_adsp,xtensa-nxp_imx8m_adsp_zephyr-elf \
-  zephyr-crosstool-xtensa-sample_controller,xtensa-sample_controller_zephyr-elf \
+  zephyr-crosstool-xtensa-intel-apl-adsp,xtensa-intel_apl_adsp_zephyr-elf \
+  zephyr-crosstool-xtensa-intel-bdw-adsp,xtensa-intel_bdw_adsp_zephyr-elf \
+  zephyr-crosstool-xtensa-intel-byt-adsp,xtensa-intel_byt_adsp_zephyr-elf \
+  zephyr-crosstool-xtensa-intel-s1000,xtensa-intel_s1000_zephyr-elf \
+  zephyr-crosstool-xtensa-nxp-imx-adsp,xtensa-nxp_imx_adsp_zephyr-elf \
+  zephyr-crosstool-xtensa-nxp-imx8m-adsp,xtensa-nxp_imx8m_adsp_zephyr-elf \
+  zephyr-crosstool-xtensa-sample-ctlr,xtensa-sample_controller_zephyr-elf \
 "
 
 # Validate arguments
